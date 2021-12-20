@@ -1,0 +1,11 @@
+# Не проверяем Gemfile.
+AllCops:
+  Exclude:
+    - Gemfile
+  NewCops: enable
+  # Увеличиваем максимальную длину строки.
+  Layout/LineLength:
+    Max: 120
+  # Увеличиваем ограничение на максимальное количество строк метода
+  Metrics/MethodLength:
+    Max: 15

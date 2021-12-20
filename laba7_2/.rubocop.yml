@@ -1,0 +1,5 @@
+# Не проверяем Gemfile.
+AllCops:
+  Exclude:
+    - Gemfile
+  NewCops: enable
